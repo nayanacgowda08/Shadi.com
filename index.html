@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaadi.com</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <img src="./images/logo.png" alt=""> </div>
+            <div class="login">
+                <ul>
+                    <li>Login</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        <div class="write">
+            <h1>Trusted Matrimony & Matchmaking Service</h1>
+        </div>
+        <div class="options">
+            <div class="gender">
+                <label for="lookingFor">I'm looking for a</label><br>
+                <select id="lookingFor" name="lookingFor">
+                 <option value="woman">Woman</option>
+                 <option value="man">Man</option>
+                </select></div>
+            <div class="age">
+                <label for="age">aged</label><br>
+                <select name="" id="age">
+                    <script>
+                        for (let i = 22; i <= 50; i++) {
+                            document.write('<option value="' + i + '">' + i + '</option>');
+                        }
+                    </script>
+                </select>
+                <label for="age-max"> to </label>
+                <select id="age-max" name="age-max">
+                    <!-- Option elements for ages 22 to 50 -->
+                    <script>
+                        for (let i = 27; i <= 50; i++) {
+                            document.write('<option value="' + i + '">' + i + '</option>');
+                        }
+                    </script>
+                    </select>
+            </div>
+            <div class="religion">
+                <label for="rel">of religion</label><br>
+                <select id="rel" name="">
+                 <option value="woman">Hindu</option>
+                 <option value="man">Christian</option>
+                 <option value="man">Muslim</option>
+                </select>
+            </div>
+            <div class="lang">
+                <label for="lan">and mother tongue</label><br>
+                <select id="lan" name="">
+                 <option value="woman">Kannada</option>
+                 <option value="man">Hindi</option>
+                 <option value="man">Marathi</option>
+                 <option value="man">Tulu</option>
+                 <option value="man">English</option>
+                </select>
+            </div>
+            <button id="btn1">Let's Begin</button>
+
+        </div>
+        
+    </div>
+    <div class="content">
+        <div id="sub"><h1>Find your Special Someone</h1></div>
+        <div id="sub2">
+            <div class="circle one">
+                <img src="./images/writing.png" alt="">
+                <div class="bref b1">
+                <h1>Sign Up</h1>
+                <p>Register for free & put up your Matrimony Profile</p>
+               </div>
+            </div>
+            <div class="circle two">
+                <img src="./images/social-network.png" alt="">
+                
+                <div class="bref b2">
+                    <h1>Connect</h1>
+                    <p>Select & Connect with Matches you like</p>
+                   </div>
+            </div>
+            <div class="circle thre">
+                <img src="./images/interaction.png" alt="">
+                
+                <div class="bref b3">
+                    <h1>Interact</h1>
+                    <p>Become a Premium Member & Start a Conversation</p>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="./images/home-icon-sprite.pngs" alt=""> -->
+    </div>
+    <div class="cont">
+        <div class="heading">
+            <h1>Matrimony Service with Millions of Success Stories</h1>
+        </div>
+        <div class="imag">
+            <div class="subdiv">
+                <img src="./images/sub1.jpg" alt="">
+                <h1>Uma and Sandeep</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias perspiciatis impedit rerum facilis consectetur possimus, illum laudantium unde eaque mollitia dicta distinctio recusandae, tenetur molestiae a quas. Id, soluta.</p>
+            </div>
+            <div class="subdiv">
+                <img src="./images/sub2.jpg" alt="">
+                <h1>Uma and Sandeep</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias perspiciatis impedit rerum facilis consectetur possimus, illum laudantium unde eaque mollitia dicta distinctio recusandae, tenetur molestiae a quas. Id, soluta.</p>
+            </div>
+            <div class="subdiv">
+                <img src="./images/sub3.jpg" alt="">
+                <h1>Uma and Sandeep</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias perspiciatis impedit rerum facilis consectetur possimus, illum laudantium unde eaque mollitia dicta distinctio recusandae, tenetur molestiae a quas. Id, soluta.</p>
+            </div>
+        </div>
+    </div>
+    <div class="submain">
+    <div id="word">
+        <h1>Your story is waiting to happen!</h1>
+        <button class="btn">Get Started</button>
+    </div>
+    
+   
+    
+</div>
+<div class="footer">
+    <div class="hilast">
+        <h1>Download the Matrimony App</h1>
+    </div>
+    <div class="lastimg">
+        <img src="./images/home-icon-sprite.png" alt="">
+        <img src="./images/Matrimony-App-Shaadi.com-Appstore.png" alt="">
+    </div>
+</div>
+</body>
+</html>
